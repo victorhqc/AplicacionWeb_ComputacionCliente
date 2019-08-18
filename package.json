@@ -1,0 +1,22 @@
+{
+  "name": "aplicacionweb_computacioncliente",
+  "version": "0.0.0",
+  "description": "Tarea de \"Computación en el Cliente\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorhqc/AplicacionWeb_ComputacionCliente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorhqc/AplicacionWeb_ComputacionCliente/issues"
+  },
+  "homepage": "https://github.com/victorhqc/AplicacionWeb_ComputacionCliente#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
