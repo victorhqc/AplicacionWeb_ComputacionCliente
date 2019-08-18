@@ -4,7 +4,8 @@
   "description": "Tarea de \"Computación en el Cliente\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build:pictures": "node ./node/pictures.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/victorhqc/AplicacionWeb_ComputacionCliente#readme",
   "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
     "express": "^4.17.1"
   }
 }

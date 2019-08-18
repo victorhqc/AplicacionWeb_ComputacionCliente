@@ -29,8 +29,19 @@ posible y enfocarse en los temas estudiados.
 
 - Node >= 12
 
+## Modo de desarrollo
+
+Ingresa a []() y obten llaves de desarrollador, y crea un archivo `.env` con los valores de las
+llaves
+```
+UNSPLASH_ACCESS_KEY=KEY
+UNSPLASH_SECRET_KEY=KEY
+```
+
 Ejecuta lo siguiente para servir los archivos estáticos
+
 ```sh
+npm run build:pictures
 npm start
 ```
 
@@ -40,6 +51,15 @@ npm start
 
 ## Galería de imágenes dinámica
 
-## Animaciones y transiciones de CSS
+La galería muestra imágenes, las cuales son obtenidas dinámicamente al realizar el comando de
+`npm run build:pictures`. Esto podría hacerse de muchas otras formas, pero la forma más sencilla
+es:
 
-##
+1. Obtener las imágenes primero.
+2. Servirlas como archivos estáticos.
+
+Lo malo de esto es que el comando se debe de ejecutar siempre que queramos mostrar nuevas imágenes
+de forma dinámica. Y sólo un administrador de sitio podrá hacerlo, pero es suficiente, ya que en
+esta tarea sólo nos interesa centrarnos en Javascript del lado del cliente.
+
+## Animaciones y transiciones de CSS
