@@ -12,6 +12,8 @@
         `No se puede inicializar la galería con: ${target}, revisa que sea correcto.`
       );
     }
+
+    this.instance.className = 'gallery';
   };
 
   Gallery.prototype._fetchJSON = function () {
@@ -41,8 +43,9 @@
     }
 
     this.json.forEach((picture) => {
-      const element = document.createElement('img');
-      element.setAttribute('src', `/pictures/${picture.id}.jpg`);
+      const element = document.createElement('div');
+      element.className = 'gallery__picture';
+      element.style.backgroundImage = `url(/pictures/${picture.id}.jpg)`;
 
       this.instance.appendChild(element);
     });
