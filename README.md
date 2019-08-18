@@ -27,7 +27,7 @@ posible y enfocarse en los temas estudiados.
 
 ## Requisitos
 
-- Node >= 12
+- Node >= 12.3.1
 
 ## Modo de desarrollo
 
