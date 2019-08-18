@@ -31,8 +31,9 @@ posible y enfocarse en los temas estudiados.
 
 ## Modo de desarrollo
 
-Ingresa a []() y obten llaves de desarrollador, y crea un archivo `.env` con los valores de las
-llaves
+Ingresa a [https://unsplash.com/developers](https://unsplash.com/developers) y obtén llaves de
+desarrollador, y crea un archivo `.env` con los valores de las llaves
+
 ```
 UNSPLASH_ACCESS_KEY=KEY
 UNSPLASH_SECRET_KEY=KEY
