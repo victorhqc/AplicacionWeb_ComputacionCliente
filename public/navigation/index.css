@@ -1,0 +1,33 @@
+body {
+  padding-top: 50px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+
+  background-color: #333;
+  color: #fff;
+
+  z-index: 99;
+}
+
+.navigation__brand {
+  font-size: 1.2em;
+  line-height: 2.4em;
+  padding: 0 15px;
+
+  color: #eee;
+  text-decoration: none;
+}
+
+.navigation__item {
+
+}
+
+.navigation__item--active {
+
+}
