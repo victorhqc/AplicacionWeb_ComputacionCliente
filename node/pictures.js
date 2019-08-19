@@ -96,7 +96,7 @@ function downloadPicture(picture, savePath) {
     const picturePath = path.resolve(savePath, `${picture.id}.jpg`);
     const writer = fs.createWriteStream(picturePath);
     const response = await axios({
-      url: picture.urls.full,
+      url: picture.urls.regular,
       method: 'GET',
       responseType: 'stream',
     });
