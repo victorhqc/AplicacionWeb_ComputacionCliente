@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build:pictures": "node ./node/pictures.js"
+    "build:pictures": "node ./node/pictures.js",
+    "build:giphy": "node ./node/giphy.js",
+    "build": "npm run build:pictures && npm run build:giphy"
   },
   "repository": {
     "type": "git",
