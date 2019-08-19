@@ -42,7 +42,7 @@ UNSPLASH_SECRET_KEY=KEY
 Ejecuta lo siguiente para servir los archivos estáticos
 
 ```sh
-npm run build:pictures
+npm run build
 npm start
 ```
 
