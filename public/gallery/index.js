@@ -57,7 +57,7 @@
       fetch(request)
         .then((response) => {
           if (!response.ok) {
-            throw new Error("Can't fetch pictures json. Did you build the project?");
+            throw new Error("No se puede obtener el json de imágenes. Inicializaste el proyecto?");
           }
 
           return response.json();
