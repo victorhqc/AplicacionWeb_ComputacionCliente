@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/victorhqc/AplicacionWeb_ComputacionCliente#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "fs-extra": "^8.1.0"
